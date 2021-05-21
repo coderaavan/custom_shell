@@ -1,0 +1,6 @@
+ls
+listFiles
+checkcpupercentage pid
+checkresidentmemory pid
+sortFile references
+checkresidentmemory pid ; ps

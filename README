@@ -1,0 +1,38 @@
+STUDENT DETAILS:
+Name: Prashant Ravi
+Roll Number: 203050082
+Class: M.Tech 1 (CSE)
+
+HOW TO COMPILE:
+1. cd to current directory.
+2. Run "make" command.
+3. Execute shell by typing "./myShell" command.
+4. Everytime there's an update in any .c file, please repeat Step 1 to 3.
+5. In case above steps doesn't work, please run following commands one by one:
+      gcc myShell.c -o myShell
+      gcc checkcpupercentage.c -o checkcpupercentage
+      gcc checkresidentmemory.c -o checkresidentmemory
+      gcc executeCommands.c -o executeCommands
+      gcc io.c -o io
+      gcc listFiles.c -o listFiles
+      gcc sortFile.c -o sortFile
+
+
+REFERENCES:
+https://www.educative.io/edpresso/splitting-a-string-using-strtok-in-c
+http://codewiki.wikidot.com/c:system-calls:open
+https://stackoverflow.com/questions/1420426/how-to-calculate-the-cpu-usage-of-a-process-by-pid-in-linux-from-c
+https://unix.stackexchange.com/questions/232708/disabling-column-names-in-ps-output
+https://opensource.com/article/18/8/what-how-makefile
+https://stackoverflow.com/questions/29101996/write-bad-file-descriptor
+https://aljensencprogramming.wordpress.com/tag/o_append/
+
+
+GENERAL POINTS:
+1. If a command itself doesn't give error in case of invalid arguements then this shell also won't. For example,
+in "ps -p 500 -o rss" where 500 is a pid which doesn't exist, ps doesn't throw an error and so will this shell.
+
+2. This shell doesn't trim quotes for commands. For example, ls and "ls" are different commands for this shell
+and it won't run "ls".
+
+3. grep identifies pattern enclosed in double quotes, single quotes or passed directly.
