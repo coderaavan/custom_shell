@@ -4,13 +4,13 @@
 3. Execute shell by typing "./myShell" command.
 4. Everytime there's an update in any .c file, please repeat Step 1 to 3.
 5. In case above steps doesn't work, please run following commands one by one:
-      gcc myShell.c -o myShell
-      gcc checkcpupercentage.c -o checkcpupercentage
-      gcc checkresidentmemory.c -o checkresidentmemory
-      gcc executeCommands.c -o executeCommands
-      gcc io.c -o io
-      gcc listFiles.c -o listFiles
-      gcc sortFile.c -o sortFile
+      * gcc myShell.c -o myShell
+      * gcc checkcpupercentage.c -o checkcpupercentage
+      * gcc checkresidentmemory.c -o checkresidentmemory
+      * gcc executeCommands.c -o executeCommands
+      * gcc io.c -o io
+      * gcc listFiles.c -o listFiles
+      * gcc sortFile.c -o sortFile
 
 # CUSTOM COMMANDS:
 1. **checkcpupercentage {pid}**: This command accepts a process identifier as an argument and returns the percentage CPU used by the process with identifier {pid} in user mode and system mode.
