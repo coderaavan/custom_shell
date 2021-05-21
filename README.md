@@ -1,9 +1,4 @@
-STUDENT DETAILS:
-Name: Prashant Ravi
-Roll Number: 203050082
-Class: M.Tech 1 (CSE)
-
-HOW TO COMPILE:
+# HOW TO COMPILE:
 1. cd to current directory.
 2. Run "make" command.
 3. Execute shell by typing "./myShell" command.
@@ -17,18 +12,11 @@ HOW TO COMPILE:
       gcc listFiles.c -o listFiles
       gcc sortFile.c -o sortFile
 
+# CUSTOM COMMANDS:
+1. **checkcpupercentage <pid>**: This command accepts a process identifier as an argument and returns the percentage CPU used by the process with identifier <pid> in user mode and system mode.
+2. checkresident
 
-REFERENCES:
-https://www.educative.io/edpresso/splitting-a-string-using-strtok-in-c
-http://codewiki.wikidot.com/c:system-calls:open
-https://stackoverflow.com/questions/1420426/how-to-calculate-the-cpu-usage-of-a-process-by-pid-in-linux-from-c
-https://unix.stackexchange.com/questions/232708/disabling-column-names-in-ps-output
-https://opensource.com/article/18/8/what-how-makefile
-https://stackoverflow.com/questions/29101996/write-bad-file-descriptor
-https://aljensencprogramming.wordpress.com/tag/o_append/
-
-
-GENERAL POINTS:
+# GENERAL POINTS:
 1. If a command itself doesn't give error in case of invalid arguements then this shell also won't. For example,
 in "ps -p 500 -o rss" where 500 is a pid which doesn't exist, ps doesn't throw an error and so will this shell.
 
