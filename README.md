@@ -13,8 +13,11 @@
       gcc sortFile.c -o sortFile
 
 # CUSTOM COMMANDS:
-1. **checkcpupercentage <pid>**: This command accepts a process identifier as an argument and returns the percentage CPU used by the process with identifier <pid> in user mode and system mode.
-2. checkresident
+1. **checkcpupercentage {pid}**: This command accepts a process identifier as an argument and returns the percentage CPU used by the process with identifier {pid} in user mode and system mode.
+2. **checkresidentmemory {pid}**: This command accepts a pid of a process and output the resident set size which is the physical memory that the task has used.
+3. **listFiles**: This command will save all the files and folders, in the current working directory to a file named files.txt.
+4. **sortFile**: This command get the file’s contents sorted line by line and print it to STDOUT.
+5. **executeCommands**: This command takes a filename as an argument and executes all the commands listed in the file sequentially in the same order as given in the file.
 
 # GENERAL POINTS:
 1. If a command itself doesn't give error in case of invalid arguements then this shell also won't. For example,
